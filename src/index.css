@@ -1,0 +1,63 @@
+body {
+  background-image: url('/2.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #fdfdfd; /* Fallback color */
+}
+
+.container {
+  background-color: rgba(71, 68, 66, 0.671); /* Fondo blanco semitransparente para el contenido */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+/* Añadir un poco de espacio alrededor de la descripción */
+.DigimonDetail p {
+  margin-bottom: 10px;
+}
+
+/* Estilo para la lista de habilidades */
+.DigimonDetail ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Estilos para centrar los modales */
+.modal-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para el botón de búsqueda */
+.btn-search {
+  margin-left: 10px;
+}
+
+.title {
+  color: #fff; /* Color del texto blanco */
+  
+  padding: 10px 20px; /* Espaciado interior */
+  border-radius: 5px; /* Borde redondeado */
+}
+
+.header {
+  text-align: center;
+  
+}
+
+.logo {
+  max-width: 250px; /* Ajuste el ancho máximo según el tamaño deseado */
+  width: 250%; /* Asegura que la imagen ocupe todo el ancho permitido */
+  height: auto;
+}
